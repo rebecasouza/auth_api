@@ -30,7 +30,7 @@ class AuthorizeApiRequest
     if headers['Authorization'].present?
       return headers['Authorization'].split(' ').last
     else
-      erros.add(:token, 'Missing token')
+      errors.add(:token, 'Missing token')
     end
     nil
   end
