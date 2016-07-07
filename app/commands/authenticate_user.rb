@@ -1,3 +1,4 @@
+# Authenticates a user by checking its credentials the database
 class AuthenticateUser
   prepend SimpleCommand
 
